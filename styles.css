@@ -26,9 +26,30 @@ body {
     background-position: center;
 }
 
+.img-logo{
+    border-radius: 112px;
+}
 
+.container-text, li{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size:17px ;
+}
 
-
+ul{
+    display: flex;
+    flex-direction: column;
+    gap:20px ;
+}
+.numeros{
+    display: flex;
+    color: white;
+    gap: 10px;
+    height:100px;
+    justify-content: flex-start;
+}
 /* Panel derecho */
 .right {
     flex: 1;
